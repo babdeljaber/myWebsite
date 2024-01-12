@@ -1,5 +1,7 @@
 body {
     background-color: #999966;
+    padding:0;
+    margin:0;
 }
 
 .top-corner {
@@ -35,3 +37,34 @@ body {
     display: inline-block;
     margin-left: 92%;
   }
+
+  h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+    font-size:55px;
+    text-shadow:1px 1px black;
+    text-align: center;
+  }
+
+  .description {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    text-shadow: .5px .5px black;
+    letter-spacing: 0.1em;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .content {
+    padding-bottom: 3%;
+  }
+
+  .pictures {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+  }
+  
